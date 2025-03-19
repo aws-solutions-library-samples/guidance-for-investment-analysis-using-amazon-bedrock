@@ -1,0 +1,48 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+
+@use "@cloudscape-design/design-tokens/index" as awsui;
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: awsui.$space-static-l;
+
+  min-block-size: 100%;
+
+  &:not(.classic) {
+    @media only screen and (min-width: 688px) and (max-width: 1280px) {
+      padding-inline: 60px;
+    }
+  }
+
+  &.classic {
+    inline-size: 100%;
+    block-size: 1100px;
+  }
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: awsui.$space-scaled-xs;
+
+  padding-block-start: awsui.$space-scaled-xxs;
+  padding-block-end: awsui.$space-container-horizontal;
+  padding-inline: awsui.$space-container-horizontal;
+}
+
+.access-denied-alert-wrapper {
+  display: flex;
+  gap: awsui.$space-scaled-s;
+
+  &__box {
+    flex: 1;
+    overflow-x: auto;
+    padding-inline: awsui.$space-scaled-m;
+    padding-block: awsui.$space-scaled-s;
+    border: 2px solid awsui.$color-border-input-default;
+    border-radius: awsui.$border-radius-input;
+    background: awsui.$color-background-input-default;
+  }
+}

@@ -1,0 +1,22 @@
+<!-- sample rectangle -->
+<svg width="800" height="125" xmlns="http://www.w3.org/2000/svg">
+
+    <style type="text/css">
+        svg {
+            font-family: ember;
+            font-size: 18mm;
+            fill: navy;
+        }
+        .em {
+            fill: royalBlue;
+        }
+        .strong {
+            stroke: navy;
+        }
+    </style>
+
+  <text x="5" y="50">
+    <tspan font-weight="bold" fill="White">Investment Analyst</tspan>
+    <tspan font-weight="bold" fill="DimGray" x="5" y="120">Guidance Package</tspan>
+  </text>
+</svg>
