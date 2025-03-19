@@ -53,7 +53,7 @@ export default function NavigationPanel() {
       {
         type: "link",
         text: "Documentation",
-        href: "https://partnercentral.awspartner.com/partnercentral2/s/article?category=Advanced_resources&article=Investment-Analysis-gen-AI-powered-Financial-Market-and-Investment-Opportunity-Analysis",
+        href: "https://partnercentral.awspartner.com/partnercentral2/s/article?category=Industry_Partner_Solutions&article=Investment-Analysis-gen-AI-powered-Financial-Market-and-Investment-Opportunity-Analysis",
         external: true,
       }
     );
