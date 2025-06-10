@@ -6,7 +6,7 @@ langchain-community
 aws_xray_sdk
 pandas_market_calendars==4.4.1
 numpy==1.26.4
-requests==2.32.3
+requests==2.32.4
 pypdf==4.2.0
 PyPDF2==3.0.1
 psycopg2-binary==2.9.9
